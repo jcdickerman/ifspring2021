@@ -1,0 +1,44 @@
+body {
+	font-family: monospace;
+	color: white;
+	background-color: black;
+	font-size: 20px;
+}
+h1 {
+	margin: 40px;
+	font-weight: normal;
+	font-size: 72px;
+	color: #4dff4a;
+}
+div{
+	margin: 40px;
+	padding: 20px;
+	border: 2px solid #4dff4a;
+}
+.direction {
+	font-style: italic;
+}
+.peter{
+	color: #ff9c38;
+}
+.dana{
+	color: #85e4ff;
+}
+.ray{
+	color: #4dff4a;
+}
+.winston{
+	color: #fff652;
+}
+.mayor{
+	color: #ff59a1;
+}
+.egon{
+	color: #b566ff;
+}
+#credit {
+	text-align: center;
+	margin: 50px;
+	font-size: 16px;
+	color: #4dff4a;
+}
