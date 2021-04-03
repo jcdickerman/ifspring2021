@@ -1,0 +1,104 @@
+html{
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 16px;
+}
+.panel{
+	padding: 40px;
+}
+.safe-area{
+	width: 960px;
+	margin: auto;
+}
+.feature.panel{
+	background-color: rgba(255, 220, 255, 1);
+	font-size: 18px;
+	letter-spacing: -0.05px;
+}
+.feature.panel img{
+	float: right;
+	padding-left: 40px;
+	padding-bottom: 40px;
+}
+.feature.panel p{
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+.gallery.panel{
+	background-color: rgba(220, 255, 255, 1);
+}
+.gallery.panel ul{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px;
+	margin-bottom: 0px;
+}
+.gallery.panel li{
+	display: block;
+	width: 50%;
+	padding-bottom: 20px;
+}
+.gallery.panel li div{
+	width:50%;
+	float: right;
+	padding-right: 40px;
+}
+.gallery.panel li h3 {
+	margin: 0px 0px 0px 11px;
+	font-size: 20px;
+	letter-spacing: .1px;
+}
+.gallery.panel li p {
+	margin: 6.5px 0px 0px 12px;
+	font-size: 18px;
+	letter-spacing: -.075px;
+
+}
+.gallery.panel img{
+	width: 200px;
+}
+.conclusion.panel{
+	background-color: rgba(255, 255, 220, 1);
+	padding-bottom: 100px;
+}
+.conclusion.panel h2{
+	margin-bottom: 31px;
+}
+.conclusion.panel .safe-area p{
+	margin: auto;
+	font-size: 26px;
+	width: 720px;
+	line-height: 36px;
+	letter-spacing: -.06px;
+	text-align: center;
+	word-spacing: -.5px;
+}
+header.panel{
+	background-image: linear-gradient(white, steelblue);
+}
+header.panel .safe-area{
+	text-align: center;
+	padding-top: 113px;
+	padding-bottom: 140px;
+}
+header.panel h1{
+	font-size: 80px;
+	margin: 0;
+}
+header.panel .subheading{
+	font-size: 30px;
+	font-weight: bold;
+}
+h2{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 0;
+	margin-bottom:32px;
+}
+footer.panel{
+	background-color: black;
+}
+footer.panel p{
+	margin: 0px;
+	font-size: 18px;
+	color: white;
+}
