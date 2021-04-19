@@ -1,0 +1,66 @@
+html {
+	padding: 5px;
+}
+section, header {
+	max-width: 960px;
+	margin: auto;
+}
+img {
+	width: 95%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+@media (min-width: 540px){
+	img{
+		width: 80%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+.overview{
+	display: block;
+	padding-top: 20px;
+}
+.description {
+	width: 100%;
+	padding: 0px;
+}
+.description p{
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	margin-top: 0;
+}
+@media (min-width: 830px){
+	html {
+		padding: 20px;
+	}
+	.overview {
+		display: flex;
+	}
+	.description {
+		padding-right: 20px;
+		float: left;
+	}
+	img {
+		width: 75%;
+		height: 75%;
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
+@media (min-width: 640px){
+	.recipe {
+		display: flex;
+	}
+	.ingredients {
+		padding-right: 20px;
+		float: left;
+		width: 100%;
+	}
+	.instructions {
+		/*width: 100%;*/
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+}
