@@ -39,14 +39,15 @@ img {
 		display: flex;
 	}
 	.description {
-		padding-right: 20px;
-		float: left;
+		width: 25%;
+	}
+	.img_container {
+		padding-left: 5%;
+		width: 70%;
 	}
 	img {
-		width: 75%;
-		height: 75%;
-		padding-left: 0px;
-		padding-right: 0px;
+		width: 100%;
+		padding: 0px;
 	}
 }
 @media (min-width: 640px){
@@ -54,13 +55,11 @@ img {
 		display: flex;
 	}
 	.ingredients {
-		padding-right: 20px;
-		float: left;
-		width: 100%;
+		width: 25%;
 	}
 	.instructions {
-		/*width: 100%;*/
-		padding-left: 0px;
+		width: 70%;
+		padding-left: 5%;
 		padding-right: 0px;
 	}
 }
