@@ -1,0 +1,138 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #e8e8e8;
+	text-align: center;
+}
+.nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #2E3841;
+}
+.nav-bar a{
+	color: white;
+	text-decoration: none;
+	font-size: 1.6em;
+	font-family: 'Montserrat', sans-serif;
+}
+.nav-bar img {
+	padding-left: 210px;
+	float: left;
+}
+.about{
+	padding-top: 1.2em;
+	float: right;
+	padding-right: 2em;
+}
+
+.shows{
+	float: right;
+	padding-top: 1.2em;
+	padding-right: 2em;
+
+}
+
+.hosts{
+	float: right;
+	padding-top: 1.2em;
+	padding-right: 2em;
+}
+.page-title{
+	background-color: #34657F;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	font-size: 3em;
+	font-family: 'Montserrat', sans-serif;
+	padding-left: 65px;
+	margin-top: 0px;
+}
+.home-cover{
+	max-width: 980px;
+	width: 90%;
+	margin-top: 90px;
+}
+.home-content,.hosts-content, .shows-content, .about-content {
+	display: flex;
+	max-width: 980px;
+	width: 90%;
+	margin: auto;
+	background-color: white;
+	min-height: 100vh;
+	text-align: left;
+}
+.hosts-content .page-title, .shows-content .page-title, .about-content .page-title{
+	margin-top: 90px;
+}
+.home-text-content, .hosts-text-content{
+	width: 100%;
+}
+.about-text-content {
+	width: 70%;
+}
+.about-image-content {
+	margin-top: 90px;
+	width: 30%;
+}
+.about-image-content img {
+	width: 100%;
+	padding-bottom: 20px;
+}
+.home-text-content p, .about-text-content p{
+	padding-left: 65px;
+	font-family: 'PT Serif', serif;
+	font-size: 1.2em;
+	color: #2E3841;
+	padding-right: 5%;
+	letter-spacing: .05em;
+}
+.sources {
+	padding: 30px;
+	background-color: #34657F;
+	color: white;
+	text-decoration: none;
+	font-family: 'PT Serif', serif;
+}
+.sources p{
+	font-size: 25px;
+	margin-top: 0;
+}
+.sources a {
+	color: white;
+	text-decoration: none;
+	font-family: 'PT Serif', serif;
+	font-size: 16px;
+}
+.hosts-text-content .gallery, .shows-text-content .gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+.hosts-text-content .gallery .host-image-container {
+	width: 25%;
+	text-align: center;
+	font-family: 'PT Serif', serif;
+	color: #2E3841;
+}
+.hosts-text-content .gallery .host-image-container img {
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.shows-text-content .gallery .shows-image-container {
+	width: 50%;
+	text-align: center;
+	font-family: 'PT Serif', serif;
+	color: #2E3841;
+	font-size: 30px;
+	margin-top: 10px;
+}
+.shows-text-content .gallery .shows-image-container img {
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.shows-text-content .gallery .shows-image-container p {
+	margin-top: 5px;
+}
