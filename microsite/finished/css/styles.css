@@ -88,6 +88,10 @@ body {
 .hosts-content .page-title, .shows-content .page-title, .about-content .page-title{
 	margin-top: 90px;
 }
+.about-image-content {
+	margin-top: 90px;
+	width: 30%;
+}
 @media (max-width: 700px){
 	.nav-bar img {
 		max-width: 170px;
@@ -129,10 +133,7 @@ body {
 .about-text-content {
 	width: 70%;
 }
-.about-image-content {
-	margin-top: 90px;
-	width: 30%;
-}
+
 .about-image-content img {
 	width: 100%;
 	padding-bottom: 20px;
