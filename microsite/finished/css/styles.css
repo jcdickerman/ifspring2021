@@ -190,6 +190,10 @@ body {
 		font-size: 1em;
 		padding-left: 35px;
 	}
+	.home-text-content a{
+		font-size: 1.2em;
+		padding-left: 35px;
+	}
 }
 @media (max-width: 775px){
 	.about-image-container.extra2{
@@ -205,8 +209,11 @@ body {
 	}
 }
 @media (max-width: 685px){
-	.about-text-content p, .home-text-content p, .home-text-content a{
+	.about-text-content p, .home-text-content p{
 		font-size: 0.9em;
+	}
+	.home-text-content a{
+		font-size: 1.1em;
 	}
 }
 @media (max-width: 550px){
