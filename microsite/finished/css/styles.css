@@ -186,7 +186,7 @@ body {
 	display: none;
 }
 @media (max-width: 850px){
-	.about-text-content p, .home-text-content p, .home-text-content a{
+	.about-text-content p, .home-text-content p{
 		font-size: 1em;
 		padding-left: 35px;
 	}
