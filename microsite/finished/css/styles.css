@@ -166,7 +166,7 @@ body {
 	display: none;
 }
 @media (max-width: 1000px){
-	.about-text-content p, .home-text-content p{
+	.about-text-content p, .home-text-content p, .home-text-content a{
 		padding-left: 45px;
 		font-size: 1.1em;
 	}
@@ -186,7 +186,7 @@ body {
 	display: none;
 }
 @media (max-width: 850px){
-	.about-text-content p, .home-text-content p{
+	.about-text-content p, .home-text-content p, .home-text-content a{
 		font-size: 1em;
 		padding-left: 35px;
 	}
@@ -205,7 +205,7 @@ body {
 	}
 }
 @media (max-width: 685px){
-	.about-text-content p, .home-text-content p{
+	.about-text-content p, .home-text-content p, .home-text-content a{
 		font-size: 0.9em;
 	}
 }
@@ -216,7 +216,7 @@ body {
 	.about-image-content {
 		display: none;
 	}
-	.about-text-content p, .home-text-content p{
+	.about-text-content p, .home-text-content p, .home-text-content a{
 		padding: 0 20px;
 	}
 }
