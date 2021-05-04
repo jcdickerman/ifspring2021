@@ -1,0 +1,97 @@
+html {
+	padding:4%;
+	background-color: #daedbb;
+	font-family: 'PT Serif', serif;
+	font-size: 1.1em;
+/*	#FFDF77
+	#E89803
+	#A9E643
+	#609706*/
+}
+h1, h2, h3 {
+	font-family: 'Nanum Gothic', sans-serif;
+}
+h1 {
+	font-size: 2.8em;
+}
+header p {
+	margin: 0;
+	font-size: 1.5em;
+	padding-bottom: 30px;
+}
+h2 {
+	font-size: 1.8em;
+}
+section, header {
+	max-width: 960px;
+	margin: auto;
+}
+img {
+	width: 95%;
+	padding-left: 2.5%;
+	padding-right: 2.5%;
+}
+@media (min-width: 540px){
+	img{
+		width: 80%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+.overview{
+	display: block;
+	padding-top: 20px;
+}
+.description {
+	width: 100%;
+	padding: 0px;
+}
+.description p{
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	margin-top: 0;
+}
+@media (min-width: 640px){
+	.recipe {
+		display: flex;
+	}
+	.ingredients {
+		width: 25%;
+	}
+	.instructions {
+		width: 70%;
+		padding-left: 5%;
+		padding-right: 0px;
+	}
+}
+@media (min-width: 850px){
+	html {
+		padding: 20px;
+	}
+	.overview {
+		display: flex;
+	}
+	.description {
+		width: 26%;
+	}
+	.img_container {
+		padding-top: 15%;
+		padding-left: 5%;
+		width: 69%;
+	}
+	img {
+		width: 100%;
+		padding: 0px;
+	}
+}
+@media (min-width: 900px){
+	.img_container {
+		padding-top: 10%;
+	}
+}
+@media (min-width: 1000px){
+	.img_container {
+		padding-top: 3%;
+	}
+}
