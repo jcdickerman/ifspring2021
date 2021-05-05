@@ -1,0 +1,257 @@
+#btn_coke .img{
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	margin-top: 60px;
+	background-image: url(https://1000logos.net/wp-content/uploads/2016/11/Coca-Cola-Logo.png);
+	background-size: cover;
+	background-position: center 20%;
+}
+#btn_coke:hover .img{
+	transform: scale(1.2);
+}
+#btn_sardella {
+	font-family: adobe-caslon-pro, serif;
+	font-weight: 800;
+	style: normal;
+	text-transform: uppercase;
+	font-size: 35px;
+	text-decoration: none;
+	margin-top: 100px;
+	box-sizing: border-box;
+	display: inline-block;
+	border: 3px solid #0706c4;
+	border-radius: 5px;
+}
+#btn_sardella .white-blue {
+	color: white;
+	background-color: #0706c4;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+#btn_sardella .white-teal {
+	color: white;
+	background-color: #00ffce;
+	padding-left: 3px;
+	padding-right: 3px;
+
+}
+#btn_sardella .blue-teal {
+	color: #0706c4;
+	background-color: #00ffce;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+#btn_sardella:hover .hover-blue-teal {
+	color: #0706c4;
+	background-color: #00ffce;
+}
+#btn_sardella:hover .hover-white-blue {
+	color: white;
+	background-color: #0706c4;
+
+}
+#btn_sardella:hover .hover-teal-white {
+	color: #00ffce;
+	background-color: white;
+}
+#btn_sardella:hover .hover-teal-blue {
+	color: #00ffce;
+	background-color: #0706c4;
+}
+#btn_sardella:hover .hover-white-teal {
+	color: #00ffce;
+	background-color: #0706c4;
+}
+#btn_michael_kors .img{
+	height: 50%;
+	margin: auto;
+	margin-top: 60px;
+	background-image: url(https://logos-world.net/wp-content/uploads/2020/05/Michael-Kors-Logo.png);
+	background-size: cover;
+	background-position: center 20%;
+}
+#btn_michael_kors:hover .img{
+	opacity: 60%;
+}
+#btn_lyft img {
+	margin-top: 70px;
+	width: 200px;
+	transition: transform .9s ease-in-out;
+}
+#btn_lyft img:hover {
+  transform: rotate(360deg);
+}
+#btn_nike div {
+	background-color: orange;
+	width: 100%;
+	height: 70px;
+	margin-top: 80px;
+	text-align: left;
+	border-radius: 10px;
+}
+#btn_nike img {
+	padding-left: 5px;
+	margin-top: 12px;
+	width: 100px;
+	transition: transform .7s;
+}
+#btn_nike div:hover img{
+  transform: translate(150px);
+}
+#btn_nerf div {
+	width: 100%;
+	height: 70px;
+	margin-top: 80px;
+	text-align: left;
+}
+#btn_nerf img {
+	padding-left: 5px;
+	margin-top: 12px;
+	width: 150px;
+}
+#btn_nerf i{
+	color: red;
+	position: absolute;
+	transform: translate(-20px,30px);
+	z-index: -1;
+	transition: transform .3s;
+}
+#btn_nerf div:hover i{
+  transform: translate(105px);
+}
+#btn_new_yorker .img{
+	height: 50%;
+	margin: auto;
+	margin-top: 60px;
+	background-image: url(https://www.uvm.edu/sites/default/files/migrated/newsadmin/uploads/media/newyorker-800x400_0.jpg);
+	background-size: cover;
+	background-position: center 20%;
+	opacity: 60%;
+}
+#btn_new_yorker:hover .img{
+	opacity: 100%;
+}
+#btn_old_navy img{
+	width: 250px;
+	margin: auto;
+	transition: transform .4s ease-in-out;
+}
+#btn_old_navy img:hover{
+	transform: scale(1.4,1.4);
+}
+#btn_tucker_allen{
+	font-family: 'Merriweather', serif;
+	text-decoration: none;
+	font-size: 30px;
+	color: #384967;
+}
+#btn_tucker_allen:hover{
+	color: #DD6F47;
+}
+#btn_cartoon_network div{
+	margin-top: 50px;
+	background-color: white;
+}
+#btn_cartoon_network img{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 200px;
+}
+#btn_cartoon_network div:hover{
+	background-color: #ec008c;
+}
+#btn_botanical{
+	color: #3a701b;
+	font-family: Georgia;
+	text-decoration: none;
+	font-size: 20px;
+}
+#btn_botanical:hover{
+	opacity: 60%;
+}
+#btn_insta .img{
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	margin-top: 60px;
+	background-image: url(https://outandaboutnow.com/wp-content/uploads/2021/01/1025px-Instagram-Icon.png);
+	background-size: cover;
+	background-position: center 20%;
+}
+#btn_insta:hover .img{
+		background-image: url(https://image.flaticon.com/icons/png/512/174/174855.png);
+}
+#btn_tesla img{
+	margin-top: 25px;
+	width: 200px;
+	opacity: 70%;
+}
+#btn_tesla img:hover{
+	opacity: 100%;
+}
+#btn_craigslist {
+	color: blue;
+	text-decoration: none;
+	font-size: 30px;
+}
+#btn_craigslist:hover {
+	color: -webkit-link;
+	text-decoration: underline;
+}
+#btn_moo img{
+	margin-top: 75px;
+	width: 200px;
+}
+#btn_moo hr{
+	display: none;
+	color: #008856;
+	width: 200px;
+	border: 3px solid #008856;
+}
+#btn_moo:hover hr{
+	display: block;
+}
+#btn_fitbit img{
+	margin-top: 75px;
+	width: 200px;
+}
+#btn_fitbit:hover img{
+	opacity: 70%;
+}
+#btn_bissingers .img{
+	width: 114.5px;
+	height: 149.5px;
+	margin: auto;
+	margin-top: 60px;
+	background-image: url(https://s3.amazonaws.com/cdn.bissingers.com/images/BissingersCrest.jpg);
+	background-size: contain;
+	background-position: center 20%;
+}
+#btn_bissingers:hover .img{
+	transform: scale(0.8);
+}
+#btn_hsn img{
+	margin-top: 75px;
+	width: 150px;
+}
+#btn_hsn:hover img{
+	opacity: 70%;
+}
+#btn_facebook img{
+	margin-top: 75px;
+	width: 250px;
+}
+#btn_facebook:hover img{
+	transform: scale(1.1);
+}
+#btn_army img{
+	margin-top: 75px;
+	width: 100px;
+	background-color: black;
+	border-radius: 10px;
+}
+#btn_army:hover img{
+	border: 5px solid #FFCC01;
+	transform: scale(1.1);
+}
